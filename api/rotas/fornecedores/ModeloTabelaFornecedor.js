@@ -12,7 +12,7 @@ const colunas = {
         allowNull: false
     },
 
-    empresa: {
+    categoria: {
         type: Sequelize.ENUM('ração', 'brinquedos'),
         allowNull: false
     }
